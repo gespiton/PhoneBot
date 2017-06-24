@@ -4,67 +4,71 @@ html
     //link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
   body.s12
     nav#nav
-      .nav-wrapper
-        a.brand-logo.right.s12(href = '#') Bot
-        ul.left
-          li
-            a connect
-          li
-            a control
+      .nav-wrapper.row
+        button.btn.waves-effect.waves-light.red.col.s4.navButton blue tooth
+        button.btn.waves-effect.waves-light.green.col.s4.navButton motor
+        button.btn.waves-effect.waves-light.blue.col.s4.navButton undeside
+        //a.brand-logo.right.s12(href = '#') Bot
+        //ul.left
+        //  li
+        //    a connect
+        //  li
+        //    a control
 
-    .container.blueToothPanel
-      .section.row
-        button.waves-effect.col.s10.push-s1.btn.btn-large#searchBtn scan for bluetooth
-      .section#searchResult
-        ul.collection#blueToothList
-          li.collection-item one
-          li.collection-item two
-          li.collection-item three
-          li.collection-item one
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item four
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item four
-          li.collection-item three
-          li.collection-item five
-          li.collection-item four
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item two
-          li.collection-item three
-          li.collection-item five
-          li.collection-item four
-      //.divider
-      .card-panel#state.red
+    #carousel-wrapper
+      .container#blueToothPanel.carouselPanel
+        .section.row
+          button.waves-effect.col.s10.push-s1.btn.btn-large#searchBtn scan for bluetooth
+        .section#searchResult
+          ul.collection#blueToothList
+            li.collection-item one
+            li.collection-item two
+            li.collection-item three
+            li.collection-item one
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item four
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item four
+            li.collection-item three
+            li.collection-item five
+            li.collection-item four
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item two
+            li.collection-item three
+            li.collection-item five
+            li.collection-item four
+        //.divider
+        .card-panel#state.red
 
+      .container#motorControlPanel.carouselPanel
+        .section.row
+          .col.s6
+            .row
+              h1.red.white-text.center-align motor 1
+            .row
+              button.btn.btn-large.col.s6.push-s3 up
+            .row
+              button.btn.btn-large.col.s6.push-s3 down
+          .col.s6
+            .row
+              h1.blue.white-text.center-align motor 2
+            .row
+              button.btn.btn-large.col.s6.push-s3 up
+            .row
+              button.btn.btn-large.col.s6.push-s3 down
 
-    .container.motorControlPanel
-      .section.row
-        .col.s6
-          .row
-            h1.red.white-text.center-align motor 1
-          .row
-            button.btn.btn-large.col.s6.push-s3 up
-          .row
-            button.btn.btn-large.col.s6.push-s3 down
-        .col.s6
-          .row
-            h1.blue.white-text.center-align motor 2
-          .row
-            button.btn.btn-large.col.s6.push-s3 up
-          .row
-            button.btn.btn-large.col.s6.push-s3 down
 
 
 
