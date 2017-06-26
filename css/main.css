@@ -7343,12 +7343,15 @@ body {
     overflow: scroll; }
   body #carousel-wrapper {
     position: relative;
-    width: auto;
-    height: 100%; }
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
     body #carousel-wrapper .carouselPanel {
       position: absolute;
       width: 100%;
       height: 100%; }
+    body #carousel-wrapper #motorControlPanel button {
+      height: 200px; }
 
 body {
   font-weight: bold;
