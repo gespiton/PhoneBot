@@ -7331,27 +7331,50 @@ body {
   body nav#nav {
     height: 100px; }
     body nav#nav .nav-wrapper button {
+      font-size: 1em;
+      color: silver;
+      background-color: #444;
       height: 100%; }
   body #searchBtn {
     font-size: 40px;
     padding: 40px;
     height: 140px; }
-  body #searchResult {
-    margin: 20px 0 50px 0;
-    border: solid gray 10px;
-    height: 50%;
-    overflow: scroll; }
   body #carousel-wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 100px);
     overflow: hidden; }
     body #carousel-wrapper .carouselPanel {
       position: absolute;
       width: 100%;
       height: 100%; }
+    body #carousel-wrapper #blueToothPanel #searchResult {
+      margin: 20px auto 50px auto;
+      height: 50%;
+      width: 83.333%;
+      overflow: scroll; }
+      body #carousel-wrapper #blueToothPanel #searchResult li {
+        height: 2.5em;
+        font-size: 1.5em;
+        padding: 1em; }
+        body #carousel-wrapper #blueToothPanel #searchResult li:nth-child(2n-1) {
+          background-color: #2196F3;
+          color: white; }
+    body #carousel-wrapper #blueToothPanel #state {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 3em;
+      font-size: 1.5em;
+      padding: 1em;
+      text-align: center;
+      color: white; }
     body #carousel-wrapper #motorControlPanel button {
-      height: 200px; }
+      height: 200px;
+      width: 200px;
+      font-size: 1em; }
+    body #carousel-wrapper #motorControlPanel h1 {
+      background: #006064; }
 
 body {
   font-weight: bold;

@@ -3,19 +3,20 @@
   <head>
     <link rel="stylesheet" href="./css/main.css"/>
     <!--link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')-->
+    <meta name="viewport" content="user-scalable=no"/>
   </head>
   <body class="s12">
     <nav id="nav">
       <div class="nav-wrapper row">
-        <button class="btn waves-effect waves-light red col s4 navButton">blue tooth</button>
-        <button class="btn waves-effect waves-light green col s4 navButton">motor</button>
-        <button class="btn waves-effect waves-light blue col s4 navButton">undeside</button>
+        <button class="btn waves-effect waves-light col s4 navButton">blue tooth</button>
+        <button class="btn waves-effect waves-light col s4 navButton">motor</button>
+        <button class="btn waves-effect waves-light col s4 navButton">undecide</button>
       </div>
     </nav>
     <div id="carousel-wrapper">
       <div class="container carouselPanel" id="blueToothPanel">
         <div class="section row">
-          <button class="waves-effect col s10 push-s1 btn btn-large" id="searchBtn">scan for bluetooth</button>
+          <button class="blue lighten-2 waves-effect col s10 push-s1 btn btn-large" id="searchBtn">scan for bluetooth</button>
         </div>
         <div class="section" id="searchResult">
           <ul class="collection" id="blueToothList">
@@ -49,13 +50,13 @@
             <li class="collection-item">four</li>
           </ul>
         </div>
-        <div class="card-panel red" id="state"></div>
+        <div class="blue lighten-4" id="state">blue tooth state</div>
       </div>
       <div class="container carouselPanel" id="motorControlPanel">
         <div class="section row">
           <div class="col s6">
             <div class="row">
-              <h1 class="red white-text center-align">motor 1</h1>
+              <h1 class="white-text center-align">motor 1</h1>
             </div>
             <div class="row">
               <button class="btn btn-large col s6 push-s3">up</button>
@@ -66,7 +67,7 @@
           </div>
           <div class="col s6">
             <div class="row">
-              <h1 class="blue white-text center-align">motor 2</h1>
+              <h1 class="white-text center-align">motor 2</h1>
             </div>
             <div class="row">
               <button class="btn btn-large col s6 push-s3">up</button>

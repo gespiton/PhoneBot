@@ -1,8 +1,13 @@
+$navButtonColor: #444
+
 body
   nav#nav
     height: 100px
     .nav-wrapper
       button
+        font-size: 1em
+        color: silver
+        background-color: $navButtonColor
         height: 100%
 
   width: 100%
@@ -12,32 +17,42 @@ body
     padding: 40px
     height: 140px
 
-  #searchResult
-    margin: 20px 0 50px 0
-    border: solid gray 10px
-    height: 50%
-    overflow: scroll
-
   #carousel-wrapper
     position: relative
     width: 100%
-    height: 100%
+    height: calc(100% - 100px)
     overflow: hidden
     .carouselPanel
       position: absolute
       width: 100%
       height: 100%
+    #blueToothPanel
+      #searchResult
+        margin: 20px auto 50px auto
+        height: 50%
+        width: 83.333%
+        overflow: scroll
+        li
+          height: 2.5em
+          font-size: 1.5em
+          padding: 1em
+          &:nth-child(2n-1)
+            background-color: #2196F3
+            color: white
+      #state
+        position: absolute
+        bottom: 0
+        width: 100%
+        height: 3em
+        font-size: 1.5em
+        padding: 1em
+        text-align: center
+
+        color: white
     #motorControlPanel
       button
         height: 200px
-
-  #bluetoothpanel
-  //position: absolute
-  //width: 100%
-  //height: 100%
-
-  #motorControlPanel
-  //position: absolute
-  //width: 100%
-  //height: 100%
-    
+        width: 200px
+        font-size: 1em
+      h1
+        background: #006064
